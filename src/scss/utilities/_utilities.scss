@@ -1,0 +1,21 @@
+.u-color-primary {
+  color: var(--primary-color) !important;
+}
+.u-color-secondary {
+  color: var(--secondary-color) !important;
+}
+
+.u-section-wrapper {
+  @include for-medium {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.u-section-spacing {
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+}

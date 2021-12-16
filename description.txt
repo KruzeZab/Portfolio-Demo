@@ -1,0 +1,7 @@
+primary bg color: #212121;
+secondary bg color: #262626;
+primary color: #08fdd8;
+secondary color: #fd2155;
+text color: #fff;
+dark: #222;
+white: #fff;

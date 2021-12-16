@@ -1,0 +1,25 @@
+.form-group {
+  label {
+    font-size: 1.4rem;
+  }
+
+  margin-bottom: 3rem;
+
+  .form-control {
+    width: 100%;
+    border: none;
+    border: 2px solid var(--light);
+    padding: 0.7rem 1.3rem;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    transition: var(--transit);
+    background-color: var(--text-heading);
+    border-radius: var(--border-radius);
+    margin-top: 1rem;
+
+    &:focus {
+      border-color: var(--primary-color);
+    }
+  }
+}

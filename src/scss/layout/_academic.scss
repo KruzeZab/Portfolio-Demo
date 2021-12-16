@@ -1,0 +1,9 @@
+.academic {
+  background-color: var(--bg-secondary);
+  padding: 1rem 1.5rem;
+  overflow-x: hidden;
+
+  @include for-medium {
+    padding: 1rem 12rem;
+  }
+}

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>John Smith | Developer Portfolio</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+      integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- End of Font Awesome -->
+
+    <!-- Title Icon -->
+    <link
+      rel="icon"
+      href="./assets/images/avatar.png"
+      type="image/x-icon"
+    />
+
+    <!-- AOS CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/aos@next/dist/aos.css"
+    />
+    <!-- End of AOS CSS -->
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- End of Custom CSS -->
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar__left">
+        <div class="navbar__branding">
+          <img
+            src="./assets/images/avatar.png"
+            alt="Donalds avatar"
+            class="navbar__image"
+          />
+          <div class="navbar__branding-text">John Smith</div>
+        </div>
+        <div class="navbar__menu" id="menu">
+          <div class="navbar__menu-1"></div>
+          <div class="navbar__menu-2"></div>
+          <div class="navbar__menu-3"></div>
+        </div>
+      </div>
+
+      <div class="navbar__right">
+        <ul class="navbar__items">
+          <li class="navbar__list">
+            <a href="#home" class="navbar__link active">home</a>
+          </li>
+          <li class="navbar__list">
+            <a href="#about" class="navbar__link">about</a>
+          </li>
+          <li class="navbar__list">
+            <a href="#projects" class="navbar__link">projects</a>
+          </li>
+          <li class="navbar__list">
+            <a href="#academic" class="navbar__link">academic</a>
+          </li>
+          <li class="navbar__list">
+            <a href="#work" class="navbar__link">work</a>
+          </li>
+          <li class="navbar__list">
+            <a href="#contact" class="navbar__link">contact me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <article class="hero__description" data-aos="zoom-in-up">
+        <p class="hero__description-text">
+          Hello
+          <img
+            src="./assets/icons/hand-emoji.svg"
+            alt="hand icon"
+            class="hero__wave"
+          />
+          I'm
+        </p>
+        <h1 class="heading-1">john smith</h1>
+        <h2 class="heading-2 u-color-primary">
+          Software Engineer + Designer
+        </h2>
+        <p class="hero__subtext">
+          I love to code. JavaScript is love.
+          <img src="./assets/icons/laptop.svg" alt="laptop emoji" />
+        </p>
+
+        <a href="#" class="btn btn-yellow">
+          <i class="fas fa-mug-hot fa-lg"></i>
+          buy me a coffee
+        </a>
+      </article>
+
+      <article class="hero__quotes" data-aos="zoom-in-down">
+        <blockquote class="hero__quotes-blockquote">
+          I've missed in my career. I've lost almost 300 games. 26
+          times I've been trusted to take the game winning shot and
+          missed. I've failed over and over and over again in my life
+          and that is why I succeed.<br />
+          <p class="hero__quotes-author u-color-primary">
+            Michael Jordan
+          </p>
+        </blockquote>
+      </article>
+    </section>
+    <!-- End of Hero Section -->
+
+    <!-- About Me Section -->
+    <section class="about u-section-spacing" id="about">
+      <h2 class="heading-2 section-heading">
+        <span>About Me</span>
+      </h2>
+      <div class="u-section-wrapper">
+        <figure class="about__image" data-aos="fade-left">
+          <img
+            src="./assets/images/profile.jpg"
+            alt="john smiths photo"
+            class="about__image-photo"
+          />
+        </figure>
+        <article class="about__description" data-aos="fade-right">
+          <p>
+            Madison is fueled by her passion for understanding the
+            nuances of cross-cultural advertising. She considers
+            herself a 'forever student,' eager to both build on her
+            academic foundations in psychology and sociology and stay
+            in tune with the latest digital marketing strategies
+            through continued coursework and professional development.
+          </p>
+          <br />
+          <p>
+            Her hunger for knowledge and determination to turn
+            information into action has contributed to her most recent
+            success at Rockwell Group. There, she led international
+            award-winning campaigns for heavy-hitting brands such as
+            Puma, Gucci, and Rolex. Madison is currently working as a
+            freelance marketing director.
+          </p>
+        </article>
+      </div>
+    </section>
+    <!-- End of About Me Section -->
+
+    <!-- Project Section -->
+    <section class="projects u-section-spacing" id="projects">
+      <h2 class="heading-2 section-heading">
+        <span>Projects</span>
+      </h2>
+
+      <div class="projects-wrapper">
+        <article class="project" data-aos="zoom-in">
+          <div class="project__image-wrapper">
+            <img
+              src="./assets/images/project-1.jpg"
+              alt="project 1"
+              class="project__image"
+            />
+          </div>
+          <h2 class="heading-2 project__title">
+            Content Management System
+          </h2>
+          <p class="project__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Obcaecati maxime et ex quaerat nobis tempore distinctio a
+            nam quibusdam soluta! Cum ex quasi, aliquid accusantium
+            debitis cupiditate! Necessitatibus, sequi quibusdam.
+          </p>
+          <div class="project__buttons">
+            <a href="#" class="btn btn-primary">view demo</a>
+          </div>
+        </article>
+        <article class="project" data-aos="zoom-in">
+          <div class="project__image-wrapper">
+            <img
+              src="./assets/images/project-2.jpg"
+              alt="project 2"
+              class="project__image"
+            />
+          </div>
+          <h2 class="heading-2 project__title">
+            Python Linear Machine Learning
+          </h2>
+          <p class="project__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Obcaecati maxime et ex quaerat nobis tempore distinctio a
+            nam quibusdam soluta! Cum ex quasi, aliquid accusantium
+            debitis cupiditate! Necessitatibus, sequi quibusdam.
+          </p>
+          <div class="project__buttons">
+            <a href="#" class="btn btn-primary">view demo</a>
+          </div>
+        </article>
+        <article class="project" data-aos="zoom-in">
+          <div class="project__image-wrapper">
+            <img
+              src="./assets/images/project-3.jpg"
+              alt="project 3"
+              class="project__image"
+            />
+          </div>
+          <h2 class="heading-2 project__title">
+            Factory Management System
+          </h2>
+          <p class="project__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Obcaecati maxime et ex quaerat nobis tempore distinctio a
+            nam quibusdam soluta! Cum ex quasi, aliquid accusantium
+            debitis cupiditate! Necessitatibus, sequi quibusdam.
+          </p>
+          <div class="project__buttons">
+            <a href="#" class="btn btn-primary">view demo</a>
+          </div>
+        </article>
+
+        <article class="project" data-aos="zoom-in">
+          <div class="project__image-wrapper">
+            <img
+              src="./assets/images/project-4.png"
+              alt="project 4"
+              class="project__image"
+            />
+          </div>
+          <h2 class="heading-2 project__title">
+            Employee Management System
+          </h2>
+          <p class="project__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Obcaecati maxime et ex quaerat nobis tempore distinctio a
+            nam quibusdam soluta! Cum ex quasi, aliquid accusantium
+            debitis cupiditate! Necessitatibus, sequi quibusdam.
+          </p>
+          <div class="project__buttons">
+            <a href="#" class="btn btn-primary">view demo</a>
+          </div>
+        </article>
+
+        <article class="project" data-aos="zoom-in">
+          <div class="project__image-wrapper">
+            <img
+              src="./assets/images/project-5.jpg"
+              alt="project 5"
+              class="project__image"
+            />
+          </div>
+          <h2 class="heading-2 project__title">
+            Restaurant Management System
+          </h2>
+          <p class="project__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Obcaecati maxime et ex quaerat nobis tempore distinctio a
+            nam quibusdam soluta! Cum ex quasi, aliquid accusantium
+            debitis cupiditate! Necessitatibus, sequi quibusdam.
+          </p>
+          <div class="project__buttons">
+            <a href="#" class="btn btn-primary">view demo</a>
+          </div>
+        </article>
+
+        <article class="project" data-aos="zoom-in">
+          <div class="project__image-wrapper">
+            <img
+              src="./assets/images/project-6.jpg"
+              alt="project 6"
+              class="project__image"
+            />
+          </div>
+          <h2 class="heading-2 project__title">
+            University Management System
+          </h2>
+          <p class="project__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Obcaecati maxime et ex quaerat nobis tempore distinctio a
+            nam quibusdam soluta! Cum ex quasi, aliquid accusantium
+            debitis cupiditate! Necessitatibus, sequi quibusdam.
+          </p>
+          <div class="project__buttons">
+            <a href="#" class="btn btn-primary">view demo</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- End fo Project Section -->
+
+    <!-- Academic Timeline -->
+    <section class="academic u-section-spacing" id="academic">
+      <h2 class="heading-2 section-heading">
+        <span>Education</span>
+      </h2>
+      <div class="timeline timeline--primary">
+        <div class="timeline__body">
+          <div class="timeline__item" data-aos="fade-right">
+            <p class="timeline__time">2017 AD</p>
+            <div class="timeline__content">
+              <h2 class="timeline__title">
+                Bachelors Degree Completion
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Quam quibusdam non quos exercitationem modi
+                laudantium! Quos fuga minus temporibus sit dolor eos
+                saepe libero doloremque laudantium ratione, eius natus
+                ducimus.
+              </p>
+            </div>
+          </div>
+          <div class="timeline__item" data-aos="fade-left">
+            <p class="timeline__time">2014 AD</p>
+            <div class="timeline__content">
+              <h2 class="timeline__title">High School Graduate</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Quam quibusdam non quos exercitationem modi
+                laudantium! Quos fuga minus temporibus sit dolor eos
+                saepe libero doloremque laudantium ratione, eius natus
+                ducimus.
+              </p>
+            </div>
+          </div>
+          <div class="timeline__item" data-aos="fade-right">
+            <p class="timeline__time">2012 AD</p>
+            <div class="timeline__content">
+              <h2 class="timeline__title">
+                School Level Examination
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Quam quibusdam non quos exercitationem modi
+                laudantium! Quos fuga minus temporibus sit dolor eos
+                saepe libero doloremque laudantium ratione, eius natus
+                ducimus.
+              </p>
+            </div>
+          </div>
+          <div class="timeline__item" data-aos="fade-left">
+            <p class="timeline__time">2010 AD</p>
+            <div class="timeline__content">
+              <h2 class="timeline__title">
+                District Level Examination
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Quam quibusdam non quos exercitationem modi
+                laudantium! Quos fuga minus temporibus sit dolor eos
+                saepe libero doloremque laudantium ratione, eius natus
+                ducimus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of academic Timeline -->
+
+    <!-- Work Timeline -->
+    <section class="work u-section-spacing" id="work">
+      <h2 class="heading-2 section-heading">
+        <span>Work History</span>
+      </h2>
+      <div class="timeline timeline--secondary">
+        <div class="timeline__body">
+          <div class="timeline__item" data-aos="fade-right">
+            <p class="timeline__time">Present</p>
+            <div class="timeline__content">
+              <h2 class="timeline__title">
+                Mid Level Software Engineer
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Quam quibusdam non quos exercitationem modi
+                laudantium! Quos fuga minus temporibus sit dolor eos
+                saepe libero doloremque laudantium ratione, eius natus
+                ducimus.
+              </p>
+            </div>
+          </div>
+          <div class="timeline__item" data-aos="fade-left">
+            <p class="timeline__time">2019 AD</p>
+            <div class="timeline__content">
+              <h2 class="timeline__title">Junior Project Manager</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Quam quibusdam non quos exercitationem modi
+                laudantium! Quos fuga minus temporibus sit dolor eos
+                saepe libero doloremque laudantium ratione, eius natus
+                ducimus.
+              </p>
+            </div>
+          </div>
+          <div class="timeline__item" data-aos="fade-right">
+            <p class="timeline__time">2018 AD</p>
+            <div class="timeline__content">
+              <h2 class="timeline__title">
+                Junior Software Engineer
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Quam quibusdam non quos exercitationem modi
+                laudantium! Quos fuga minus temporibus sit dolor eos
+                saepe libero doloremque laudantium ratione, eius natus
+                ducimus.
+              </p>
+            </div>
+          </div>
+          <div class="timeline__item" data-aos="fade-left">
+            <p class="timeline__time">2017 AD</p>
+            <div class="timeline__content">
+              <h2 class="timeline__title">Junior Web Developer</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Quam quibusdam non quos exercitationem modi
+                laudantium! Quos fuga minus temporibus sit dolor eos
+                saepe libero doloremque laudantium ratione, eius natus
+                ducimus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Work Timeline -->
+
+    <!-- Contact Me Section -->
+    <section class="contact u-section-spacing" id="contact">
+      <h2 class="heading-2 section-heading">
+        <span>Get In Touch</span>
+      </h2>
+
+      <div class="contact-wrapper">
+        <article class="contact__left" data-aos="fade-right">
+          <h2 class="contact__heading heading-2">
+            Hello There! Let's Get In Touch. &nbsp;
+            <i class="fas fa-handshake u-color-primary"></i>
+          </h2>
+          <p class="contact__description">
+            Please feel free to leave me a message or contact me for
+            project. I am available on any one of these social media
+            sites. Send me a note, and let's get started on your
+            project today!
+          </p>
+
+          <div class="contact__socials">
+            <a href="#" class="contact__social-network">
+              <i class="fab fa-facebook fa-lg"></i>
+              Connect with Facebook
+            </a>
+            <br />
+            <a href="#" class="contact__social-network">
+              <i class="fas fa-envelope fa-lg"></i>
+              Connect with Gmail
+            </a>
+            <br />
+            <a href="#" class="contact__social-network">
+              <i class="fab fa-github fa-lg"></i>
+              Connect with Github
+            </a>
+            <br />
+          </div>
+        </article>
+
+        <!-- Form -->
+        <div class="contact__right" data-aos="fade-left">
+          <form action="#" class="contact__form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                name=""
+                id="name"
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="5"
+                class="form-control"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+              Send
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+          <!-- End form -->
+        </div>
+      </div>
+    </section>
+    <!-- End of Contact Me Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer__links">
+        <a href="#" class="footer__link-icon">
+          <i class="fab fa-facebook fa-lg"></i>
+          Facebook
+        </a>
+        <a href="#" class="footer__link-icon">
+          <i class="fas fa-envelope fa-lg"></i>
+          Gmail
+        </a>
+        <a href="#" class="footer__link-icon">
+          <i class="fab fa-github fa-lg"></i>
+          Github
+        </a>
+      </div>
+      <p class="footer__text">
+        Copyright &copy; 2021. All Rights Reserved.
+      </p>
+    </footer>
+    <!-- End of footer section -->
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- ENd of AOS JS -->
+
+    <!-- Particles JS -->
+    <script src="js/particles.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/app.js"></script>
+    <!-- End of Custom JS -->
+  </body>
+</html>

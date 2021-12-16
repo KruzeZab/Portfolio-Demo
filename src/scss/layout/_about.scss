@@ -1,0 +1,39 @@
+.about {
+  overflow-x: hidden;
+  padding: 0 2rem;
+  background-color: var(--bg-secondary);
+
+  &__description {
+    font-size: 1.4rem;
+  }
+
+  &__image {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__image-photo {
+    display: block;
+    width: 90%;
+    outline: 0.5rem solid var(--primary-color);
+    outline-offset: 0.5rem;
+    border-radius: var(--border-radius);
+  }
+
+  @include for-medium {
+    &__image {
+      display: block;
+      order: 2;
+    }
+
+    &__description {
+      flex: 0 0 60%;
+      font-size: 1.6rem;
+      margin-right: 5rem;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.heading-1 {
+  font-size: 3.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+
+  @include for-medium {
+    font-size: 4rem;
+  }
+
+  @include for-large {
+    font-size: 4.2rem;
+  }
+
+  @include for-extra-large {
+    font-size: 4.4rem;
+  }
+}
+
+.heading-2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+
+  @include for-medium {
+    font-size: 2rem;
+  }
+
+  @include for-large {
+    font-size: 2.2rem;
+  }
+
+  @include for-extra-large {
+    font-size: 2.4rem;
+  }
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+
+  @include for-medium {
+    font-size: 3.2rem;
+  }
+  @include for-large {
+    font-size: 3.4rem;
+  }
+  @include for-extra-large {
+    font-size: 3.6rem;
+  }
+}
+
+.section-heading:after,
+.section-heading:before {
+  content: '\00a0\00a0\00a0\00a0\00a0';
+  text-decoration: line-through;
+  color: var(--primary-color);
+}

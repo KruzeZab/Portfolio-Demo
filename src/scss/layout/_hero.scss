@@ -1,0 +1,74 @@
+.hero {
+  padding-top: 10rem;
+  padding-bottom: 7rem;
+  display: flex;
+  min-height: 90vh;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-primary);
+
+  &__description-text {
+    letter-spacing: 1.2px;
+    font-size: 2rem;
+  }
+
+  &__subtext {
+    font-size: 1.6rem;
+    margin-top: 0.8rem;
+    margin-bottom: 2rem;
+    letter-spacing: 0.5px;
+  }
+
+  &__wave {
+    display: inline-block;
+  }
+
+  &__snippet {
+    font-size: 1rem;
+  }
+
+  &__quotes {
+    background-color: var(--bg-secondary);
+    padding: 1rem 2rem;
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    border-left: 0.5rem solid var(--primary-color);
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 8rem;
+
+    &::before {
+      color: var(--primary-color);
+      content: open-quote;
+      font-size: 4em;
+      line-height: 0.1em;
+      margin-right: 0.25em;
+      vertical-align: -0.4em;
+    }
+  }
+
+  &__quotes-blockquote {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    letter-spacing: 1px;
+  }
+
+  &__quotes-author {
+    margin-top: 1rem;
+    &::before {
+      content: '\2014\0020';
+    }
+  }
+
+  @include for-medium {
+    & {
+      flex-direction: row;
+      padding: 0 20rem;
+    }
+
+    &__description {
+      flex: 1 0 calc(60% - 1rem);
+    }
+  }
+}
